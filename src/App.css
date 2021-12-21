@@ -56,7 +56,7 @@
 }
 
 .about {
-  background-image: url('src/images/aboutScreen.JPG');
+  background-image: url('images/homeScreenPic.jpeg');
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -119,7 +119,7 @@
 }
 
 .projects {
-  background-image: url('/Users/benmorris/Portfolio/react-website-portfolio/src/images/IMG_8570.jpg');
+  background-image: url('images/homeScreenPic.jpeg');
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -128,7 +128,7 @@
 }
 
 .this-is-me {
-  background-image: url('/src/images/discGolfWin.jpeg');
+  background-image: url('images/discGolfWin.jpeg');
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
