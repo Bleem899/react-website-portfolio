@@ -10,12 +10,6 @@ export default function ThisIsMe() {
             <div className="this-is-me-paragraph">
                 <h1>What you need to know about the rest of me:</h1>
                 <section className="this-is-me-section">
-                    <h2>FAITH</h2>
-                    <p>
-                        I love Jesus.
-                    </p>
-                </section>
-                <section className="this-is-me-section">
                     <h2>FAMILY</h2>
                     <p>
                         Family is a big part of my life. My family is very
