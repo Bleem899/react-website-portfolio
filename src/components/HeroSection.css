@@ -10,14 +10,6 @@
     object-fit: contain;
 }
 
-.btn-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    object-fit: contain;
-}
-
 .hero-container > h1 {
     color: #fff;
     font-size: 100px;
