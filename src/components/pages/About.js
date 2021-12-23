@@ -45,6 +45,50 @@ function About() {
                         </div>
                     </div>
                 </div>
+                <div className="about-bullets">
+                    <div className="about-bullets-wrapper">
+                        <div className="about-bullets-items">
+                            <h2>Here are some things that I learned and experienced 
+                                during my summer internship at SPP:</h2>
+                            <p>
+                                - Microsoft Office
+                            </p>
+                            <p>
+                                - Typescript
+                            </p>
+                            <p>
+                                - React
+                            </p>
+                            <p>
+                                - Bitbucket 
+                            </p>
+                            <p>
+                                -  
+                            </p>
+                        </div>
+                    </div>
+                    <div className="about-bullets-wrapper">
+                        <div className="about-bullets-items">
+                            <h2>Here are some things that I am learning and experiencing 
+                                in my internship at Siplast:</h2>
+                            <p>
+                                - Google Workspace
+                            </p>
+                            <p>
+                                - Manufacturing Practices
+                            </p>
+                            <p>
+                                - Process Engineering Practices
+                            </p>
+                            <p>
+                                - Documentation Skills
+                            </p>
+                            <p>
+                                -  
+                            </p>
+                        </div>
+                    </div>
+                </div>
             </div>
         </>
     )
