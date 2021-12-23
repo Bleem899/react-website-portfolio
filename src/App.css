@@ -58,11 +58,11 @@
 }
 
 .about {
-  background-image: url('images/homeScreenPic.jpeg');
+  background-image: url('images/aboutScreenPic2.jpg');
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  color: #fff;
+  color: white;
   font-size: 100px;
   object-fit: contain;
   width: 100%;
@@ -87,6 +87,7 @@
   padding: 40px;
   text-align: center;
   padding-top: -100px;
+  font-size: 40px;
 }
 
 .about-paragraph > p {
@@ -100,7 +101,7 @@
   width: 100%;
   max-width: 1000px;
   display: flex;
-  padding: 40px;
+  padding: 20px;
 }
 
 .about-bullets-wrapper {
@@ -133,8 +134,16 @@
   font-size: 100px;
 }
 
+.btn-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  object-fit: contain;
+}
+
 .this-is-me {
-  background-image: url('images/discGolfWin.jpeg');
+  background-image: url('images/squadPic.jpg');
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -160,6 +169,7 @@
   text-decoration-line: underline;
   padding: 40px;
   text-align: center;
+  font-size: 40px;
 }
 
 .this-is-me-section {
@@ -169,18 +179,14 @@
 .this-is-me-section > h2 {
   text-decoration-line: underline;
   padding-bottom: 10px;
+  font-weight: 900;
+  font-size: 30px;
 }
 
 .this-is-me-section > p {
   padding-left: 50px;
   text-align: left;
   padding-bottom: 10px;
-}
-
-.this-is-me-section > img {
-  position: relative;
-  width: 25%;
-  padding-left: 50px;
 }
 
 .this-is-me-bullets {
