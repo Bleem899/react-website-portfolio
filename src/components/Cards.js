@@ -11,15 +11,9 @@ function Cards() {
                     <ul className="cards__items">
                         <CardItem 
                             src="/Users/benmorris/Portfolio/react-website-portfolio/src/images/IMG_8570.jpg"
-                            text="explore here"
+                            text="resume"
                             label="adventure"
-                            path="/about"
-                        />
-                        <CardItem 
-                            src="/Users/benmorris/Portfolio/react-website-portfolio/src/images/IMG_8570.jpg"
-                            text="buy here"
-                            label="buy"
-                            path="/about"
+                            path="/Ben_Morris_Resume_2022"
                         />
                     </ul>
                 </div>
