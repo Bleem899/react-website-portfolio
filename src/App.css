@@ -174,6 +174,9 @@
 
 .this-is-me-section {
   padding: 20px;
+  box-shadow: 0 6px 20px rgba(38, 111, 247, 0.17);
+  -webkit-filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
+  filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
 }
 
 .this-is-me-section > h2 {
