@@ -48,8 +48,8 @@ function About() {
                 <div className="about-bullets">
                     <div className="about-bullets-wrapper">
                         <div className="about-bullets-items">
-                            <h2>Here are some things that I learned and experienced 
-                                during my summer internship at SPP:</h2>
+                            <h2>What I learned and experienced 
+                                during my internship at Southwest Power Pool:</h2>
                             <p>
                                 - Microsoft Office
                             </p>
@@ -60,17 +60,29 @@ function About() {
                                 - React
                             </p>
                             <p>
-                                - Bitbucket 
+                                - Continuous integration with Jenkins
                             </p>
                             <p>
-                                -  
+                                - Source code management with Bitbucket/Git
+                            </p>
+                            <p>
+                                - Insight into how the national power grid works and is maintained
+                            </p>
+                            <p>
+                                - How to work and program in a team setting 
+                            </p>
+                            <p>
+                                - Googling skills
+                            </p>
+                            <p>
+                                - Experience working remotely
                             </p>
                         </div>
                     </div>
                     <div className="about-bullets-wrapper">
                         <div className="about-bullets-items">
-                            <h2>Here are some things that I am learning and experiencing 
-                                in my internship at Siplast:</h2>
+                            <h2>What I am learning and 
+                                experiencing during my internship at Siplast:</h2>
                             <p>
                                 - Google Workspace
                             </p>
@@ -84,7 +96,19 @@ function About() {
                                 - Documentation Skills
                             </p>
                             <p>
-                                -  
+                                - Communication skills in a fast-paced environment
+                            </p>
+                            <p>
+                                - Experience working individually
+                            </p>
+                            <p>
+                                - Self-starter mentality
+                            </p>
+                            <p>
+                                - Time management practice between work, school, and life
+                            </p>
+                            <p>
+                                - Experience working on-site
                             </p>
                         </div>
                     </div>
