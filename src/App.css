@@ -126,7 +126,7 @@
 }
 
 .projects {
-  background-image: url('images/homeScreenPic.jpeg');
+  background-image: url('images/techPic.jpg');
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -189,7 +189,7 @@
 .this-is-me-section > p {
   padding-left: 50px;
   text-align: left;
-  padding-bottom: 10px;
+  padding-top: 10px;
 }
 
 .this-is-me-bullets {
