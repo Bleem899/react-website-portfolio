@@ -4,17 +4,17 @@ import EHCIssuePage from "../images/EHCIssuePage.jpeg"
 import EHCReportsPage from "../images/EHCReportsPage.jpeg"
 import './ImageGallery.css';
  
-const images = [
-    EHCHomePage,
-    EHCReportsPage,
-    EHCIssuePage
-]
+// const images = [
+//     EHCHomePage,
+//     EHCReportsPage,
+//     EHCIssuePage
+// ]
  
-export default function ImageGallery() {
+export default function ImageGallery(props) {
   return (
     <ImageGroup>
       <ul className="images">
-        {images.map(i => (
+        {props.images.map(i => (
           <li key={i}>
             <Image
               src={i}
