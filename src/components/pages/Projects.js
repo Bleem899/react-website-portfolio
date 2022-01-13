@@ -5,6 +5,11 @@ import { Grid } from 'semantic-ui-react'
 import EHCHomePage from "../../images/EHCHomePage.jpeg"
 import EHCIssuePage from "../../images/EHCIssuePage.jpeg"
 import EHCReportsPage from "../../images/EHCReportsPage.jpeg"
+import BlockyPic1 from "../../images/BlockyPic1.png"
+import BlockyPic2 from "../../images/BlockyPic2.png"
+import BlockyPic3 from "../../images/BlockyPic3.png"
+import BlockyPic4 from "../../images/BlockyPic4.png"
+import raft from "../../images/raftPic.png"
 import ImageGallery from '../ImageGallery'
 
 export default function Projects() {
@@ -47,20 +52,9 @@ export default function Projects() {
                         automated a 2-person, 4-step process to be a 1-person, 
                         2-step process.
                     </p>
-                    <Grid columns={3} >
-                        <Grid.Row>
-                            <Grid.Column>
-                                <img src={EHCHomePage} alt="" />                            </Grid.Column>
-                            <Grid.Column>
-                                <img src={EHCReportsPage} alt=""/>
-                            </Grid.Column>
-                            <Grid.Column>
-                                <img src={EHCIssuePage} alt=""/>
-                            </Grid.Column>
-                        </Grid.Row>
-                    </Grid>
+                    <ImageGallery images={[EHCHomePage, EHCReportsPage, EHCIssuePage]}/>
                     <p>
-                        I learned Typescript and React without any prior knowledge of either in order 
+                        I learned Typescript and React, without any prior knowledge of either, in order 
                         to help build this app. I worked mostly on the 
                         user interface, but helped with the backend of the project too. 
                         The main focus was to display large amounts of data, from the 
@@ -89,13 +83,48 @@ export default function Projects() {
                     </p>
                 </section>
                 <section className="this-is-me-section">
-                    <h2>project 3</h2>
+                    <h2>Blocky</h2>
                     <p>
-                        project 1
+                        This is the project that I completed as a part of my data structures course. 
+                        This project helped with the study and practice of different data structures. 
+                        Specifically, this project included in-depth work with recursion and 
+                        binary trees.
                     </p>
-                    <ImageGallery/>
+                    <ImageGallery images={[BlockyPic1, BlockyPic2, BlockyPic3, BlockyPic4]}/>
                     <p>
-                        project description
+                        Blocky is a two-player game that involves different colored tiles. To win, a player must   
+                        have the most points, based on their unique objective, at the end of the game. 
+                        The player can manipulate the board by swapping tiles vertically, horizontally, or 
+                        by rotating the selected group. When performing the move, the game will traverse 
+                        the binary tree (the game board) and execute the move, recursively, on each 
+                        selected branch.
+                    </p>
+                </section>
+                <section className="this-is-me-section">
+                    <h2>Raft Competition</h2>
+                    <p>
+                        This is the project that my team and I completed as a part of our 
+                        Intro to Engineering course. The task was to build a raft that held the 
+                        most weight in proportion to the weight of the raft. Ideally, we needed to 
+                        build a raft that held a lot of weight and did not weigh much itself. 
+                        This project emphasized working together as a team, and the engineering 
+                        thought process. 
+                    </p>
+                    <ImageGallery images={[raft]}/>
+                    <p>
+                        My team consisted of 4 classmates and myself. We worked together to 
+                        find a way to maximize time, effort, and cost of supplies. We decided to build 
+                        a light raft that would still hold weight. This, in turn, would ideally 
+                        maximize the time it would take to build, the effort it would take us to build, 
+                        and the cost of the supplies that we needed to buy.
+                    </p>
+                    <p>
+                        Our final project consisted of a large plastic bowl with styrofoam sheets 
+                        around it. The bowl is buoyant, cheap, fast (no assembly required), 
+                        and has a large area to hold weights. The styrofoam assists with the buoyancy, 
+                        keeps the bowl from tipping over, is cost friendly, and is fairly easy to cut.
+                        Our raft went on to have the best weight ratio of the class which allowed 
+                        us to win the competition.
                     </p>
                 </section>
             </div>
