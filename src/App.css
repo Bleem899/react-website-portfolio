@@ -90,6 +90,12 @@
   font-size: 40px;
 }
 
+.about-paragraph > h2 {
+  padding: 40px;
+  text-align: center;
+  font-size: 40px;
+}
+
 .about-paragraph > p {
   padding-left: 100px;
   padding-right: 100px;
