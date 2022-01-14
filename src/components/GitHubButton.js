@@ -11,7 +11,7 @@ export const GitHubButton = ({children, type, onClick, buttonStyle, buttonSize})
     const checkButtonSize = SIZES.includes(buttonSize) ? buttonSize : SIZES[0];
 
     return(
-        <Link to='https://github.com/Bleem899' className='btn-mobile'>
+        <Link target="_blank" to={'//github.com/Bleem899?tab=repositories'} className='btn-mobile'>
             <button
             className={`btn ${checkButtonStyle} ${checkButtonSize}`}
             onClick={onClick}
