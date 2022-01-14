@@ -1,7 +1,6 @@
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import '../../App.css'
 import { GitHubButton } from "../GitHubButton"
-import { Grid } from 'semantic-ui-react'
 import EHCHomePage from "../../images/EHCHomePage.jpeg"
 import EHCIssuePage from "../../images/EHCIssuePage.jpeg"
 import EHCReportsPage from "../../images/EHCReportsPage.jpeg"
@@ -14,6 +13,9 @@ import ImageGallery from '../ImageGallery'
 
 export default function Projects() {
     const [clicked, setClicked] = useState(false)
+    useEffect(() => {
+        window.scrollTo(0, 14)
+      }, [])
     return (
         <>
             <h1 className="projects">PROJECTS</h1>

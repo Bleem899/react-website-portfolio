@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import '../../App.css'
 import discGolfPic from "../../images/discGolfWin.jpeg"
 import soloBaseballPic from "../../images/soloBaseballPic.JPG"
@@ -16,6 +16,9 @@ import youngBaseballPic from "../../images/youngBaseballPic.JPG"
 import { Grid } from 'semantic-ui-react'
 
 export default function ThisIsMe() {
+    useEffect(() => {
+        window.scrollTo(0, 14)
+      }, [])
     return (
         <>
             <h1 className="this-is-me">This Is Me</h1>

@@ -1,9 +1,12 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import '../../App.css'
 import AccordionMajor from '../AccordionMajor'
 import AccordionMinor from '../AccordionMinor'
 
 function About() {
+    useEffect(() => {
+        window.scrollTo(0, 14)
+      }, [])
     return (
         <>
             <h1 className="about">ABOUT ME</h1>
