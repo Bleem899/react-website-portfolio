@@ -1,0 +1,10 @@
+{
+  "hosting": {
+    "public": "/Users/benmorris/Portfolio/react-website-portfolio",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ]
+  }
+}
