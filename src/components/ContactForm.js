@@ -1,48 +1,53 @@
-import React, { useState } from "react";
+import React from 'react';
+import { useForm, ValidationError } from '@formspree/react';
+import './ContactForm.css'
 
-const ContactForm = () => {
-    const [status, setStatus] = useState("Submit");
-
-    const handleSubmit = async (e) => {
-        e.preventDefault();
-        setStatus("Sending...");
-
-        const { name, email, message } = e.target.elements;
-        let details = {
-            name: name.value,
-            email: email.value,
-            message: message.value,
-        };
-
-        let response = await fetch("http://localhost:5000", {
-            method: "POST",
-            headers: {
-                "Content-Type": "application/json;charset=utf-8",
-            },
-            body: JSON.stringify(details),
-        });
-
-        setStatus("Submit");
-        let result = await response.json();
-        alert(result.status);
-    };
-
+function ContactForm() {
+    const [state, handleSubmit] = useForm("myyokzqa");
+    if (state.succeeded) {
+        return <p>Thank you! I will be in touch with you soon!</p>;
+    }
     return (
-        <form onSubmit={handleSubmit}>
-            <div className="contact-form-wrapper">
-                <div className="add-space">
-                    <input type="text" id="name" placeholder="Name" required/>
-                </div>
-                <div className="contact-form-container">
-                    <input type="email" id="email" placeholder="Email" required />
-                </div>
-                <div className="contact-form-container">
-                    <textarea id="message" placeholder="Position/Reasons for contact/etc..." required />
-                </div>
-            </div>
-            <button type="submit">{status}</button>
-        </form>
+        <div className="contact-form">
+            <form onSubmit={handleSubmit}>
+                <input className="contact-form"
+                    id="name"
+                    type="text"
+                    name="name"
+                    placeholder="Name"
+                />
+                <ValidationError
+                    prefix="Name"
+                    field="name"
+                    errors={state.errors}
+                />
+                <input
+                    id="email"
+                    type="email"
+                    name="email"
+                    placeholder="Email Address"
+                />
+                <ValidationError
+                    prefix="Email"
+                    field="email"
+                    errors={state.errors}
+                />
+                <textarea
+                    id="message"
+                    name="message"
+                    placeholder="Position/Reason for contact/etc."
+                />
+                <ValidationError
+                    prefix="Message"
+                    field="message"
+                    errors={state.errors}
+                />
+                <button type="submit" disabled={state.submitting}>
+                    Submit
+        </button>
+            </form>
+        </div>
     );
-};
+}
 
 export default ContactForm;
