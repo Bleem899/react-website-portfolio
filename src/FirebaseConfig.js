@@ -9,6 +9,7 @@ import { getAnalytics } from "firebase/analytics";
 const firebaseConfig = {
   apiKey: "AIzaSyB2aMWLx6PpBJs9dSJrZ4q2u5rVSQRcY4s",
   authDomain: "react-online-portfolio.firebaseapp.com",
+  databaseURL: "https://react-online-portfolio-default-rtdb.firebaseio.com",
   projectId: "react-online-portfolio",
   storageBucket: "react-online-portfolio.appspot.com",
   messagingSenderId: "159647579480",
