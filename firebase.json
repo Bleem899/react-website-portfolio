@@ -1,7 +1,7 @@
 {
   "hosting": {
     // "public": "/Users/benmorris/Portfolio/react-website-portfolio",
-    "public": "/home/runner/work/react-website-portfolio/react-website-portfolio/build",
+    "public": "/Users/benmorris/Portfolio/react-website-portfolio/public",
     "ignore": [
       "firebase.json",
       "**/.*",
