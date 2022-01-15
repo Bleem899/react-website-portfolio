@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react'
+import React, { useEffect } from 'react'
 import '../../App.css'
 import { GitHubButton } from "../GitHubButton"
 import EHCHomePage from "../../images/EHCHomePage.jpeg"
@@ -12,7 +12,6 @@ import raft from "../../images/raftPic.png"
 import ImageGallery from '../ImageGallery'
 
 export default function Projects() {
-    const [clicked, setClicked] = useState(false)
     useEffect(() => {
         window.scrollTo(0, 14)
       }, [])
