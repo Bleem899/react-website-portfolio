@@ -14,8 +14,8 @@ jobs:
         run: npm install
       - name: Run Tests
         env:
-          CI: true
-        run: npm test --passWithNoTests
+          CI: false
+        run: npm test --if-present
       - name: Build
         run: npm run build
       - name: Archive Production Artifact
