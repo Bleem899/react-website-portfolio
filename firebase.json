@@ -1,8 +1,8 @@
 {
   "hosting": {
-    "public": "Users/benmorris/Portfolio/react-website-portfolio",
+    "public": "src",
     "ignore": [
-      "firebase.json",
+      // "firebase.json",
       "**/.*",
       "**/node_modules/**"
     ]
