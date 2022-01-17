@@ -14,7 +14,7 @@ function App() {
       <Router>
         <Navbar/>
         <Routes>
-          <Route path='/react-website-portfolio' exact element={<Home/>}/>
+          <Route path='/' exact element={<Home/>}/>
           <Route path='/about'  element={<About/>}/>
           <Route path='/projects'  element={<Projects/>}/>
           <Route path='/this-is-me'  element={<ThisIsMe/>}/>
