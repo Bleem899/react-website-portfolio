@@ -58,7 +58,7 @@
 }
 
 .about {
-  background-image: url('images/aboutScreenPic2.jpg');
+  background-image: url('images/AboutScreenPic3.jpg');
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -104,8 +104,8 @@
 }
 
 .about-bullets {
-  width: 100%;
-  max-width: 1000px;
+  width: 90%;
+/*  max-width: 1000px;*/
   display: flex;
   padding: 20px;
 }

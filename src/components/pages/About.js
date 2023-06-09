@@ -13,19 +13,18 @@ function About() {
             <div className="about-paragraph">
                 <h1>What you need to know about me:</h1>
                 <p>
-                    - I am a currently a senior at Ouachita Baptist University.
-                    I will be graduating in May with a Bachelor of Science
+                    - I graduated from Ouachita Baptist University in May of 2022 
+                    with a Bachelor of Science
                     in Engineering-Physics and minors in Computer Science
                     and Mathematics.
                     </p>
                 <p>
-                    - I am getting married (!!!) on June 18th, 2022
-                    to my beautiful fiancé. But let's skip to the important part for now.
-                    You know what being fresh out of college and newly married means...
-                    I will be relocating to wherever I get a job!!
+                    - I recently got married on June 18th, 2022
+                    to my beautiful wife. We are enjoying marriage and recently moved 
+                    to our new house in North Little Rock, Arkansas.
                     </p>
                 <p>
-                    - My technical skills aren't the most extensive. However, I am eager
+                    - My technical skill portfolio isn't the most extensive. However, I am eager
                     to learn any skills that are necessary in order for me to do my job well.
                     </p>
                 <p>
@@ -49,6 +48,36 @@ function About() {
                     </div>
                 </div>
                 <div className="about-bullets">
+                <div className="about-bullets-wrapper">
+                        <div className="about-bullets-items">
+                            <h2>What I am learning and experiencing 
+                                during my time at FIS:</h2>
+                            <p>
+                                - COBOL
+                            </p>
+                            <p>
+                                - JCL
+                            </p>
+                            <p>
+                                - Navigating an IBM Mainframe terminal
+                            </p>
+                            <p>
+                                - Source code management with Endevor
+                            </p>
+                            <p>
+                                - Waterfall integration of code to a client system
+                            </p>
+                            <p>
+                                - How to leverage existing base and custom code
+                            </p>
+                            <p>
+                                - Insight into a Large Financial Institution
+                            </p>
+                            <p>
+                                - How to work in a virtual and cross-cultural team setting
+                            </p>
+                        </div>
+                    </div>
                     <div className="about-bullets-wrapper">
                         <div className="about-bullets-items">
                             <h2>What I learned and experienced 
@@ -84,8 +113,8 @@ function About() {
                     </div>
                     <div className="about-bullets-wrapper">
                         <div className="about-bullets-items">
-                            <h2>What I am learning and 
-                                experiencing during my internship at Siplast:</h2>
+                            <h2>What I am learned and 
+                                experienced during my internship at Siplast:</h2>
                             <p>
                                 - Google Workspace
                             </p>

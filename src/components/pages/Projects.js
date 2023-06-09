@@ -32,6 +32,10 @@ export default function Projects() {
                     I completed throughout my coursework on my GitHub as 
                     well as the larger ones that I have access to.
                 </p>
+                <p>
+                    **Unfortunately, due to legal reasons I will not 
+                    be able to include any projects from my time at FIS.**
+                </p>
                 <div className="btn-container">
                     <div className="hero-btns">
                         <GitHubButton
