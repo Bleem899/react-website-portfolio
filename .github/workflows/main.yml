@@ -40,5 +40,4 @@ jobs:
         with:
           args: deploy --only hosting
         env:
-#          FIREBASE_TOKEN: ${{ secrets.FIREBASE_TOKEN }}
-          GOOGLE_APPLICATION_CREDENTIALS: '/Users/benmorris/Portfolio/react-website-portfolio/node_modules/nodemailer/lib/well-known/services.json'
+          GCP_SA_KEY: ${{ secrets.GCP_SA_KEY }}
